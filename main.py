@@ -11,9 +11,9 @@ function_tolerance = 0
 
 
 def function(x,y,z):
-	global function_tolerance
-
-	return y < 0
+	# Pimp this to change whatever you want
+	
+	return False
 
 
 algorithm.apply_to_world(world, function)
